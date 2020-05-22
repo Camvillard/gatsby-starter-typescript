@@ -9,6 +9,16 @@ const gray = "#a8a8a8"
 const mediumGray = "#646464"
 const darkGray = "#0f0f0f"
 
+const body = ""
+const header = ""
+const accent = ""
+
+export const themeFonts = {
+  body,
+  header,
+  accent,
+}
+
 export const themeColors = {
   aqua,
   darkAqua,
@@ -19,4 +29,28 @@ export const themeColors = {
   gray,
   mediumGray,
   darkGray,
+}
+
+// default : mobile
+// iPhone 11 - 4 cols
+const xsm = `424px`
+
+// iPad - 8 cols
+const sm = `768px`
+
+// iPad Pro
+const md = `1024px`
+
+// iMac - 12 cols
+const lg = `1280px`
+
+// macbook pro
+const xl = `1440px`
+
+export const themeBreakpoints = {
+  xsm,
+  sm,
+  md,
+  lg,
+  xl,
 }
