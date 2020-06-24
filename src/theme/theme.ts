@@ -45,12 +45,12 @@ const md = `1024px`
 const lg = `1280px`
 
 // macbook pro
-const xl = `1440px`
+const xlg = `1440px`
 
 export const themeBreakpoints = {
   xsm,
   sm,
   md,
   lg,
-  xl,
+  xlg,
 }
