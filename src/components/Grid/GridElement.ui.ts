@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Breakpoint } from "../../shared/types/Breakpoint.type"
-import { themeBreakpoints } from "../../theme/theme"
+import { themeBreakpoints } from "../../shared/theme/theme"
 
 const { sm, md, lg, xlg } = themeBreakpoints
 

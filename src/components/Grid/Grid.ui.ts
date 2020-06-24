@@ -1,10 +1,10 @@
 import styled from "styled-components"
 import { Breakpoint } from "../../shared/types/Breakpoint.type"
-import { themeBreakpoints } from "../../theme/theme"
+import { themeBreakpoints } from "../../shared/theme/theme"
 
 const { sm, md, lg, xlg } = themeBreakpoints
 
-type GridProps = {
+export interface GridWrapperProps {
   columns: Breakpoint<string>
   gap: Breakpoint<string>
   justify: Breakpoint<string>
@@ -15,7 +15,7 @@ type GridProps = {
   alignContent?: Breakpoint<string>
   margin?: Breakpoint<string>
 }
-export const Grid = styled.div<GridProps>`
+export const GridWrapper = styled.div<GridWrapperProps>`
   margin: ${props => props.margin?.default};
   display: grid;
   grid-template-columns: ${props => props.columns.default};
